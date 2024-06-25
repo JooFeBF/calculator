@@ -36,7 +36,7 @@ function App() {
             try {
               const evaluation = evaluate(input)
               return evaluation
-            } catch (e) {
+            } catch {
               return '0'
             }
           })}>=</button>
